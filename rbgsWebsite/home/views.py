@@ -35,7 +35,7 @@ def index(request):
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="news">News</a>
+              <a class="nav-link" href="/news">News</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Programs</a>
@@ -77,7 +77,7 @@ def index(request):
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">Find Out More!</a>
+              <a href="/news" class="btn btn-primary">See more about news       !</a>
             </div>
           </div>
         </div>
