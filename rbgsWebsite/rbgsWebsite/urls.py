@@ -21,4 +21,7 @@ urlpatterns = [
     url(r'^home/', include('home.urls')),
     url(r'^news/', include('news.urls')),
     url(r'^programs/', include('programs.urls')),
+    url(r'^contactus/', include('contactus.urls')),
+    url(r'^researches/', include('researches.urls')),
+    url(r'^outreach/', include('outreach.urls')),
 ]
